@@ -6,6 +6,10 @@ LiveCode is a scripting language maintained by LiveCode Ltd.  See <http://www.li
 
 This image contains LiveCode Community Server running as a CGI handler within an Apache web server environment.
 
+## Tags available
+
+This image currently is available with the following tags:  latest, 7.1.0, 7.0.6
+
 ## How to use this image
 
 ##### Run a single LiveCode site 
@@ -21,7 +25,7 @@ docker run -it --rm -P --name livecode -v "$PWD":/var/www/html/ techstrategies/l
 To bundle this into your own project's docker image, create your Dockerfile:
 
 ```bash
-FROM techstrategies/livecode:7.0.6
+FROM techstrategies/livecode:7.1.0
 COPY src/ /var/www/html/
 ```
 
@@ -29,5 +33,5 @@ Where src/ is the directory containing all your php code. Then, run the commands
 
 ```bash
 docker build -t my-livecode-app .
-docker run -it --rm --name my-running-app my-livecode-app
+docker run -it --rm -P --name my-running-app my-livecode-app
 ```
