@@ -6,6 +6,8 @@ RUN apt-get update && \
     apt-get install -y \
         apache2 \
         libc6-i386 \
+        libx11-6 \
+        libxext6 \
         unzip \
         wget
 
