@@ -8,7 +8,7 @@ This image contains LiveCode Community Server running as a CGI handler within an
 
 ## Tags available
 
-This image currently is available with the following tags:  `latest` `7.1.0` `7.0.6`
+This image currently is available with the following tags:  `latest` `8.0.0dp6` `7.1.0` `7.0.6`
 
 ## How to use this image
 
