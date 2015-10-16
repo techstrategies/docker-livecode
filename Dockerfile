@@ -12,7 +12,7 @@ RUN apt-get update && \
         wget
 
 RUN mkdir -p /usr/local/livecode && cd /usr/local/livecode && \
-    wget "http://downloads.livecode.com/livecode/7_1_0/LiveCodeCommunityServer-7_1_0-Linux-x86_64.zip" && \
+    wget "http://downloads.livecode.com/livecode/7_1_1/LiveCodeCommunityServer-7_1_1_rc_1-Linux-x86_64.zip" && \
     unzip LiveCodeCommunityServer-7_1_0-Linux-x86_64.zip && \
     chmod 755 livecode-community-server && \
     a2enmod actions && a2enmod cgi
