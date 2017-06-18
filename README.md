@@ -8,7 +8,7 @@ This image contains LiveCode Community Server running as a CGI handler within an
 
 ## Tags available
 
-This image currently is available with the following tags:  `latest` `8.0.0dp7` `8.0.0dp6` `7.1.1rc1` `7.1.0` `7.0.6`
+This image currently is available with the following tags:  `latest` `8.1.5` `8.0.0dp7` `8.0.0dp6` `7.1.1rc1` `7.1.0` `7.0.6`
 
 ## How to use this image
 
@@ -25,7 +25,7 @@ docker run -it --rm -P --name livecode -v "$PWD":/var/www/html/ techstrategies/l
 To bundle this into your own project's docker image, create your Dockerfile:
 
 ```bash
-FROM techstrategies/livecode:7.1.0
+FROM techstrategies/livecode:8.1.5
 COPY src/ /var/www/html/
 ```
 
