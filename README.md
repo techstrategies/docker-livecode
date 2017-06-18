@@ -29,7 +29,7 @@ FROM techstrategies/livecode:7.1.0
 COPY src/ /var/www/html/
 ```
 
-Where src/ is the directory containing all your php code. Then, run the commands to build and run the Docker image:
+Where src/ is the directory containing all your LC scripts. Then, run the following commands to build and run the Docker image:
 
 ```bash
 docker build -t my-livecode-app .
