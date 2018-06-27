@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
 EXPOSE 80
 
@@ -6,6 +6,7 @@ RUN apt-get update && \
     apt-get install -y \
         apache2 \
         libc6-i386 \
+        libfontconfig \
         libx11-6 \
         libxext6 \
         unzip \
